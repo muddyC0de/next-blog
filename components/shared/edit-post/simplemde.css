@@ -1,0 +1,38 @@
+.simplemde-root .editor-toolbar {
+  @apply bg-background border-none  border-[0] py-0 px-[90px] h-[50px] flex items-center;
+}
+
+.simplemde-root .editor-toolbar button:hover {
+  @apply text-primary border-none border-[0] bg-[hsla(168,45%,43%,.1)];
+}
+.simplemde-root .editor-toolbar button {
+  @apply text-[20px] ml-0 flex items-center  border-none border-[0] mr-3 p-2;
+}
+
+.simplemde-root .editor-toolbar .active {
+  @apply text-primary border-none bg-[hsla(168,45%,43%,.1)];
+}
+
+.simplemde-root .cm-s-easymde .cm-header-1 {
+  @apply text-[40px] leading-[40px] border-b [border-bottom-color:rgba(0,_0,_0,_.05)];
+}
+
+.simplemde-root .CodeMirror-lines {
+  @apply text-[20px];
+}
+
+.simplemde-root .EasyMDEContainer .CodeMirror {
+  @apply border-none px-[90px];
+}
+
+.simplemde-root .EasyMDEContainer .CodeMirror-scroll {
+  overflow: hidden !important;
+}
+
+.cm-formatting .cm-formatting-list .cm-formatting-list-ul .cm-variable-2 {
+  @apply pl-[40px];
+}
+
+.cm-s-easymde .cm-link {
+  @apply text-primary hover:underline !important;
+}
